@@ -130,22 +130,22 @@ h6, .h6 {
   font-size: 12px;
   padding: 5px 15px;
 }
-
+                              /* linking buttons  */
 .btn-primary {
   color: #fff;
-  background-color: #ffbc3b;
+  background-color:green;
 }
 .btn-primary::before {
   background-color: #fff;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active {
-  color: #ffbc3b !important;
-  background-color: #ffab08 !important;
-  border-color: #ffab08 !important;
+  color: green !important;
+  background-color: red !important;
+  border-color: green !important;
 }
 
 .btn-outline-primary {
-  color: #ffbc3b;
+  color: red;
   background-color: transparent;
   border: 1px solid #ffbc3b;
 }
@@ -164,7 +164,7 @@ h6, .h6 {
   border: 1px solid #fff;
 }
 .btn-light::before {
-  background-color: #ffbc3b;
+  background-color: red;
 }
 .btn-light:active, .btn-light:hover, .btn-light.focus, .btn-light:focus, .btn-light.active {
   color: #fff !important;
@@ -235,7 +235,7 @@ a:hover {
 }
 
 a.text-primary:hover {
-  color: #ffbc3b !important;
+  color: red !important;
 }
 
 a.text-light:hover {
@@ -435,7 +435,7 @@ a h4:hover {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background: #ffbc3b;
+  background:red;
   left: -25px;
   top: 5px;
 }
@@ -459,9 +459,9 @@ textarea.form-control {
   transform: scaleY(0);
   transform-origin: top;
 }
-
+                          /* the first part for the navigation part */
 .navigation {
-  background: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
+  /* background: linear-gradient(to right, transparent 50%, #ffbc3b 50%); */
   transition: 0.2s ease;
 }
 @media (max-width: 991px) {
@@ -482,7 +482,7 @@ textarea.form-control {
 
 .navbar-nav {
   padding-left: 50px;
-  background: #ffbc3b;
+  background:none;
 }
 @media (max-width: 991px) {
   .navbar-nav {
@@ -600,7 +600,7 @@ link:focus,
 }
 .navbar .dropdown-menu {
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
-  border-bottom: 5px solid #ffbc3b;
+  border-bottom: 5px solid red;
   padding: 0 15px;
   padding-left: 5px;
   top: 96px;
@@ -647,7 +647,7 @@ link:focus,
   }
 }
 .navbar .dropdown .dropdown .dropdown-toggle:hover, .navbar .dropdown-item:hover {
-  color: #ffbc3b;
+  color: red;
   background: transparent;
 }
 
@@ -678,7 +678,7 @@ link:focus,
 }
 .hero-slider .prevArrow:hover,
 .hero-slider .nextArrow:hover {
-  color: #ffbc3b;
+  color: red;
 }
 .hero-slider .prevArrow {
   right: 60px;
@@ -697,7 +697,7 @@ link:focus,
   margin: 0 6px;
 }
 .hero-slider .slick-dots li.slick-active button {
-  background: #ffbc3b;
+  background: red;
 }
 .hero-slider .slick-dots li button {
   color: transparent;
@@ -713,7 +713,7 @@ link:focus,
 /* banner feature */
 .feature-icon {
   font-size: 50px;
-  color: #ffbc3b;
+  color: red;
   display: inline-block;
 }
 
@@ -789,7 +789,7 @@ link:focus,
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: #ffbc3b;
+  background: red;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -817,7 +817,7 @@ link:focus,
   height: 80%;
   width: 80%;
   transform: translate(-50%, -50%);
-  background: #ffbc3b;
+  background: black;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -839,7 +839,7 @@ link:focus,
 /* events */
 .card-date {
   position: absolute;
-  background: #ffbc3b;
+  background:green;
   font-family: "futura-bold";
   text-align: center;
   padding: 10px;
@@ -863,7 +863,7 @@ link:focus,
 /* /teacher */
 /* footer */
 .newsletter {
-  background-image: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
+  /* background-image: linear-gradient(to right, transparent 50%, #b17507 50%); */
   margin-bottom: -170px;
   position: relative;
   z-index: 1;
@@ -923,9 +923,9 @@ link:focus,
 }
 .filter-controls li.active {
   font-weight: 600;
-  color: #ffbc3b;
+  color: green;
 }
 .filter-controls li:hover {
-  color: #ffbc3b;
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
