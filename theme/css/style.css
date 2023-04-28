@@ -557,6 +557,13 @@ link:focus,
   }
 }
 
+.trying {
+  background: url('../images/teacher.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .sticky {
   position: fixed;
   top: 0;
