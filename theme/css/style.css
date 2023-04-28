@@ -776,6 +776,7 @@ link:focus,
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  
 }
 @media (max-width: 767px) {
   .success-video .play-btn {
