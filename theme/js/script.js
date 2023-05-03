@@ -109,3 +109,11 @@
 	});
 
 })(jQuery);
+
+$(document).ready(function() {
+	// initialize collapse functionality
+	$('.navbar-toggler').click(function() {
+	  $('.collapse').collapse('toggle');
+	});
+  });
+  
