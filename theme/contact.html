@@ -50,33 +50,32 @@
     <script type="text/javascript">
       (function () {
         // https://dashboard.emailjs.com/admin/account
-        emailjs.init("901YyaYWdwdrk-ii_");
+        emailjs.init('901YyaYWdwdrk-ii_');
       })();
     </script>
 
     <script type="text/javascript">
       window.onload = function () {
         document
-          .getElementById("contact-form")
-          .addEventListener("submit", function (event) {
+          .getElementById('contact-form')
+          .addEventListener('submit', function (event) {
             event.preventDefault();
             // generate a five digit number for the contact_number variable
             // this.contact_number.value = (Math.random() * 100000) | 0;
             // these IDs from the previous steps
-            emailjs.sendForm("service_6ginv7c", "template_enysp3s", this).then(
+            emailjs.sendForm('service_6ginv7c', 'template_enysp3s', this).then(
               function () {
-                alert("our message is successfuly submitted")
-                console.log("SUCCESS!");
+                alert('our message is successfuly submitted');
+                console.log('SUCCESS!');
               },
               function (error) {
-                alert("error")
-                console.log("FAILED...", error);
-              }
+                alert('error');
+                console.log('FAILED...', error);
+              },
             );
           });
       };
     </script>
-
   </head>
 
   <body>
@@ -172,8 +171,9 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-dark p-0">
             <a class="navbar-brand" href="indexs.html"
-              ><img src="images/logo.png" alt="logo" width="80px"
-            />KIRA SECONDARY/S</a>
+              ><img src="images/logo.png" alt="logo" width="80px" />KIRA
+              SECONDARY/S</a
+            >
             <button
               class="navbar-toggler rounded-0"
               type="button"
@@ -233,7 +233,9 @@
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="rresearch.html">Research</a>
+                      <a class="dropdown-item" href="rresearch.html"
+                        >Research</a
+                      >
                     </li>
                     <li>
                       <a class="dropdown-item" href="sscholarship.html"
@@ -441,9 +443,7 @@
                 Contact Us
               </li>
             </ul>
-            <p class="text-lighten mb-0">
-              
-            </p>
+            <p class="text-lighten mb-0"></p>
           </div>
         </div>
       </div>
@@ -513,8 +513,8 @@
               >+256 782366717</a
             >
             <a href="tel:+8802057843248" class="text-color h5 d-block"
-            >+256 700529224</a
-          >
+              >+256 700529224</a
+            >
             <a
               href="mailto:yourmail@email.com"
               class="mb-5 text-color h5 d-block"
@@ -522,10 +522,10 @@
             >
 
             <a
-            href="mailto:yourmail@email.com"
-            class="mb-5 text-color h5 d-block"
-            >kirasecondaryschool@yahoo.com</a
-          >
+              href="mailto:yourmail@email.com"
+              class="mb-5 text-color h5 d-block"
+              >kirasecondaryschool@yahoo.com</a
+            >
 
             <p id="demo">kira municipality<br />P.O.BOX 1168,Kampala</p>
           </div>
@@ -692,11 +692,16 @@
       </div>
     </footer>
     <!-- /footer -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- jQuery -->
-    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- <script src="plugins/jQuery/jquery.min.js"></script> -->
     <!-- Bootstrap JS -->
-    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- <script src="plugins/bootstrap/bootstrap.min.js"></script> -->
     <!-- slick slider -->
     <script src="plugins/slick/slick.min.js"></script>
     <!-- aos -->
@@ -711,8 +716,5 @@
 
     <!-- Main Script -->
     <script src="js/script.js"></script>
-
-  
-    
   </body>
 </html>
